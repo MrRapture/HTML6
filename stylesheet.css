@@ -1,0 +1,153 @@
+﻿h1{
+    font-family:'Sans Serif Collection';
+    font-size: 45px;
+    text-align: center;
+    background-color:pink;
+    position:center;
+}
+h1:hover {
+    background-color: #e91e63;
+    padding-right: 90%;
+    font-size: 20px;
+}
+a{
+    font-size: 30px;
+    font-family:sans-serif;
+    color:white;
+    padding-block:0em;
+    padding: 1em 1.5em 1em 2em; /*Top, Right, Bottom, Left*/
+}
+a:hover {
+    background-color: #e91e63;
+ }
+.p{
+    font-family:'Goudy Old Style';
+    font-size: 10px;
+    font-style:italic;
+}
+.p1 {
+    font-size: 20px;
+    padding: 0px 40px 40px 0px;
+    color:white;
+}
+.p:hover {
+    background-color: black;
+}
+.ul{
+    font-size:40px;
+    color:white;
+    }
+.li{
+    color:white;
+}
+
+footer {
+    font-size: 40px;
+    position: fixed;
+    bottom: 0;
+    padding: 0px 0px 0px 0px;
+    height: 150px;
+    width: 100%;
+    background-color: orangered;
+    color: black;
+}
+body {
+    background-image: url(Images/pop-art-2982960_960_720.jpg);
+    /*background-size:cover;*/ background-size: cover; /*Use % if you use cover size will change*/
+}
+.img-chess {
+    height: 35px;
+    width: 400px;
+    background-image: url(Images/5877194.jpg);
+}
+.img-board {
+    height: 25px;
+    width: 400px;
+    background-image: url(Images/board.jpg);
+}
+
+/* MEDIA Q*/
+
+@media (max-width: 576px){ /*Beginning of media query*/
+
+
+    h1 {
+        font-family: 'Sans Serif Collection';
+        font-size: 12px;
+        text-align: center;
+        background-color: pink;
+        position: center;
+    }
+
+        h1:hover {
+            background-color: #e91e63;
+            padding-right: 90%;
+            font-size: 10px;
+        }
+
+    a {
+        font-size: 33px;
+        font-family: sans-serif;
+        color: white;
+        padding-block: 0em;
+        padding: 1em 1.5em 1em 2em; /*Top, Right, Bottom, Left*/
+    }
+
+        a:hover {
+            background-color: #e91e63;
+        }
+
+    .p {
+        font-family: 'Goudy Old Style';
+        font-size: 10px;
+        font-style: normal;
+    }
+
+    .p1 {
+        font-size: 12px;
+        padding: 0px 40px 40px 0px;
+        color: white;
+    }
+
+    .p:hover {
+        background-color: black;
+    }
+
+    .ul {
+        font-size: 40px;
+        color: white;
+    }
+
+    .li {
+        color: white;
+    }
+
+    footer {
+        font-size: 40px;
+        position: fixed;
+        bottom: 0;
+        padding: 0px 0px 0px 0px;
+        height: 150px;
+        width: 100%;
+        background-color: orangered;
+        color: black;
+    }
+
+    body {
+        background-image: url(Images/pop-art-2982960_960_720.jpg);
+        /*background-size:cover;*/ background-size: cover; /*Use % if you use cover size will change*/
+    }
+
+    .img-chess {
+        height: 35px;
+        width: 400px;
+        background-image: url(Images/5877194.jpg);
+    }
+
+    .img-board {
+        height: 25px;
+        width: 400px;
+        background-image: url(Images/board.jpg);
+    }
+
+} /*End of media query*/

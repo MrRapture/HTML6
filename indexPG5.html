@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+
+<head>
+<meta lang="en" />
+<meta charset="utf-8" />
+<link rel="stylesheet" href="stylesheet.css" />
+
+<title>BLOG</title>
+
+<style>
+    .row div {
+        padding: 3px 0px 3px 0px; /* TOP, RIGHT, BOTTOM, LEFT*/
+        background-color: black;
+        color: white;
+        border: solid;
+        border-color: pink;
+    }
+
+    .container-fixed {
+        display: grid;
+        grid-template-columns: repeat(1, fr);
+        border: hidden;
+        border-color: white;
+        grid-column-gap: 23em;
+        padding: 1em;
+        font-size: 20px;
+        font-family: Arial;
+    }
+    wrapper5{
+        grid-template-columns: 1fr 1fr;
+        grid-gap:2em;
+    }
+    .p5{
+        
+    }
+</style>
+</head>
+
+<body>
+
+    <h1>Blog Post</h1>
+
+    <a href="index.html">About Us</a>
+    <a href="indexPG2.html">Join Us</a>
+    <a href="indexPG3.html">Pictures1</a>
+    <a href="indexPG4.html">Pictures2</a>
+    <a href="indexPG5.html">Blog</a>
+    <a href="indexPG6.html">Contact Us</a>
+    <br><br>
+
+    <div class="grid">
+        <div class="container-fixed">
+            <div class="row">
+                <div class="col-sm-6">
+                    <left>11/05/2022</left>
+                    <center>
+                        We will be wishing our member
+                        and webpage creator Chris a Happy Birthday!
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="wrapper5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <left>11/08/2022 & 11/09/2022 </left>
+                    <center>
+                        <br>
+                        Student Pictures will be held between
+                        11:00 am to 2:00pm in the library. Chess
+                        Club pictures will also be taken on these
+                        days.
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="container-fixed">
+            <div class="row">
+                <div class="col-sm-6">
+                    <left>11/12/2022</left>
+                    <center>
+                        Lisa & Tammy will be conducting orientation
+                        for all incoming Knight Chess members. The
+                        team will be providing refreshments. Location
+                        TBD.
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footer style="position:fixed">
+    <p5 style="font-family: 'Franklin Gothic'">
+        <center>
+            Contacts:
+        </center>
+        <center>
+            Gina White @ ginabear34@gmail.com or 315-695-2366
+        </center>
+        <center>
+            Chris Cruz @ godzrapture@icloud.com or 210-237-2377
+        </center>
+    </p5>
+</footer>
+</html>
